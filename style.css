@@ -1,0 +1,99 @@
+.section-1__button, .section-1, .header__block .header__button, .header__block .nav__list, .header__block {
+  display: flex;
+  flex-direction: row;
+}
+
+.body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  max-width: 1400px;
+  font-size: 18px;
+}
+
+.header__block {
+  align-items: center;
+  width: 80vw;
+  margin: 1% auto;
+}
+.header__block_nav {
+  flex-grow: 1;
+}
+.header__block .block__logo {
+  flex-grow: 2;
+}
+.header__block .nav__list {
+  list-style-type: none;
+}
+.header__block .list_item {
+  padding: 4%;
+}
+.header__block .header__button_sign-in {
+  border: black 0.03em solid;
+  margin-right: 7%;
+}
+
+.button {
+  width: 110px;
+  height: 46px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+}
+.button_link {
+  text-decoration: none;
+  display: block;
+  padding-top: 12%;
+  color: black;
+}
+.button_link_sign-up {
+  color: white;
+}
+.button_orange {
+  background-color: #FF9900;
+}
+
+.section-1 {
+  justify-content: space-between;
+  width: 80vw;
+  margin: 4% auto;
+}
+.section-1__text {
+  width: 26vw;
+}
+.section-1 .title {
+  font-weight: 700;
+  font-size: 44px;
+}
+.section-1__button {
+  justify-content: space-between;
+  width: 20vw;
+  margin-top: 10%;
+}
+.section-1__button__link {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.section-1__button_get-started {
+  width: 175px;
+}
+
+.section-1__link-get {
+  color: white;
+  padding-top: 9%;
+  font-size: 16px;
+}
+
+.section-1__button_watch-video {
+  width: 161px;
+  padding-left: 8%;
+}
+
+.section-1__link-watch {
+  color: #FF9900;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
